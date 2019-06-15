@@ -1,0 +1,63 @@
+.test{
+  border: solid 1px black;
+}
+
+.index{
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: linear-gradient(to right top , #20655c, #43014a);
+  text-align: center;
+}
+.imgTitle{
+  height: auto;
+  width: 45%;
+  margin-top: 15%;
+}
+.searchContain{
+  background-color: gainsboro;
+  width: 20%;
+  margin: 16px auto;
+  font-size: 0.5rem;
+  border-radius: 25px;
+  text-align: left;
+}
+.searchInput{
+  text-indent: 0.5rem;
+  width: 87%;
+  display: inline-block;
+}
+.icon{
+  display: inline-block;
+  color: blueviolet;
+  font-weight: bolder;
+}
+.button{
+  visibility: hidden;
+}
+@media only screen and (max-width: 376px){
+  .imgTitle{
+    width: 55%;
+    margin-top: 55%;
+  }
+  .searchContain{
+    background-color: gainsboro;
+    width: 45%;
+    margin: 35px auto;
+    text-align: center;
+    font-size: 0.8rem;
+
+  }
+  .searchInput{
+    text-indent: 0rem;
+    width: 100%;
+  }
+  .icon{
+    display: none;
+  }
+  .button{
+    visibility: visible;
+  }
+}
